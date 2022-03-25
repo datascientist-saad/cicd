@@ -1,4 +1,4 @@
-name: Super-Linter-saad
+name: Super-Linter
 
 on: push
 
@@ -10,7 +10,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Run Super-Linter-saad
+      - name: Run Super-Linter
         uses: github/super-linter@v3
         env:
           DEFAULT_BRANCH: main
